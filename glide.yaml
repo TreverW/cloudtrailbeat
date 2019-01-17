@@ -1,4 +1,4 @@
-package: github.com/aidan-/cloudtrailbeat
+package: github.com/TreverW/cloudtrailbeat
 import:
 - package: github.com/aws/aws-sdk-go
   version: ^1.5.2
@@ -8,7 +8,7 @@ import:
   - service/s3
   - service/sqs
 - package: github.com/elastic/beats
-  version: ^5.0.0
+  version: ^6.6.0
   subpackages:
   - libbeat/beat
   - libbeat/common

@@ -6,7 +6,7 @@ This is a beat for the [Amazon Web Services (AWS) CloudTrail](https://aws.amazon
 
 ## Getting Started
 ### Pre-built packages
-Pre-built packages for a variety of systems are available on the [releases](https://github.com/aidan-/cloudtrailbeat/releases) page.  This is the recommended method of installation.
+Pre-built packages for a variety of systems are available on the [releases](https://github.com/TreverW/cloudtrailbeat/releases) page.  This is the recommended method of installation.
 
 ### Building
 These steps assume you already have a working [Go environment](https://golang.org/doc/install).
@@ -16,9 +16,9 @@ These steps assume you already have a working [Go environment](https://golang.or
 * [Glide](https://github.com/Masterminds/glide) >= 0.10.0
 
 ```bash
-mkdir -p ${GOPATH}/github.com/aidan-
-cd ${GOPATH}/github.com/aidan-
-git clone https://github.com/aidan-/cloudtrailbeat.git
+mkdir -p ${GOPATH}/github.com/TreverW
+cd ${GOPATH}/github.com/TreverW
+git clone https://github.com/TreverW/cloudtrailbeat.git
 cd cloudtrailbeat
 glide install
 make
